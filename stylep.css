@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-image: url("obrazky/pozadi.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.navigace{
+    height: 100vh;
+    width: 100%;
+    border: 2px;
+    border-radius: 20px;    
+}
+.nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-around; 
+}
+.pravy, .logo-box{
+display: inline-flex;
+margin-left: 7%;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;  
+}
+.nav img{
+    height: 70px;
+}
+.uzivatel{
+    margin-left: 10%;   
+}
+.pozadi{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.relative{
+    position: relative;
+}
+
+.content-image{
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    border-radius: 40px;
+    display: block;
+    justify-content: space-evenly;
+    
+}
+
+.content-image{
+    left: 25%;
+    margin-top: 5%;
+    box-shadow: 5px 5px gray; 
+    align-items: center;
+}
+.nadpis{
+    display: block;
+    align-items: center;
+}
+.content-image img{
+    text-align: left;
+    display: flex;
+}
+.obsah{
+    display: flex;
+    justify-content: space-around;
+}
+
+.obsah p{
+    margin-top: 16%;
+    font-size: 30px;
+}
+
+
