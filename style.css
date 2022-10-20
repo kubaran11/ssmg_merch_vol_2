@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-image: url("obrazky/pozadi.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.navigace{
+    height: 100vh;
+    width: 100%;
+    border: 2px;
+    border-radius: 20px;    
+}
+.nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-around; 
+}
+.pravy, .logo-box{
+display: inline-flex;
+margin-left: 7%;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;  
+}
+.nav img{
+    height: 70px;
+}
+.uzivatel{
+    margin-left: 10%;   
+}
+.pozadi{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.relative{
+    position: relative;
+
+}
+
+.content{
+    width: 19%;
+    height: 280px;  
+    position: absolute;
+    top: 38%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: larger;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 23px;
+  }
+
+.content{
+    margin-top: 10%;
+    border-radius: 15px;
+    left: 35.5%;
+    box-shadow: 5px 5px gray;    
+    
+}
+.content h1{
+    text-align: left;
+    margin-left: 15%;
+}
+
+.content .horni{
+    margin-top: 30px;
+}
+.content a{
+    margin-top: 5px;
+}
+.content a{
+    text-align: center;
+    justify-content: end;
+    font-size: 35px;
+    color: white;
+    background-color: gray;
+    padding: 15px;
+    border: 1px 1px 1px 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.content a{
+
+    font-style: none;
+    text-decoration: none;
+}
+
+.a_relative{
+    display: block;
+    margin-top: 15px;
+}
+
+.content-image{
+    top: 50px;
+}
+.content-image{
+    display: flex;
+    width: 28.2%;
+    height: 600px;
+    position: absolute;
+    background-color: white;
+    left: 53%;
+    justify-content: center;
+}
+
+.content-image{
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.content .content-image{
+    position: absolute;
+    left: 10%;
+}
+
+.content-image img{
+    width: 80%;
+    justify-content: center;
+}
