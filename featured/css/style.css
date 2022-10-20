@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d7bc0;
+    
+}
+.pozadi{
+    
+    position: absolute;
+    height: 125%;
+    width: 100%;
+    margin-top: -21px;
+    margin-left: -8px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.featured{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.featured-product{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 40px;
+    z-index: 1;
+}
+.info{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-school{
+    background-color: white;
+    height: 350px;
+    width: 85%;
+    border-radius: 40px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.featured-product img{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 40px;
+    z-index: 1;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-top: 7.5%;
+}
+p{
+    padding-top: 5%;
+    font-size: 31px;
+}
+
+.url{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.url a{
+    border: white 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
