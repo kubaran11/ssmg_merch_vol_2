@@ -1,1 +1,1 @@
-# ssmg_merch_vol_2
+# SŠMG Merch - vol. 2
